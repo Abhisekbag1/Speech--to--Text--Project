@@ -13,8 +13,9 @@ Before you begin, ensure you have met the following requirements:
 2. Pip package manager installed.
 3. A working microphone connected to your computer.
    
-##Installation
-1. Clone the repository to your local machine:
+## Installation
+
+Clone the repository to your local machine:
 
 git clone https://github.com/yourusername/speech-to-text-multi-language.git
 
