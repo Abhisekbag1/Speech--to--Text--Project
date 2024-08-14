@@ -6,35 +6,37 @@ This project demonstrates a simple speech-to-text converter in Python that suppo
 2. Captures audio from the microphone and converts it to text in real-time.
 3. Easy to extend to other languages supported by the Google Web Speech API.
 ##Prerequisites
+
 Before you begin, ensure you have met the following requirements:
 
 1. Python 3.7 or later installed on your machine.
 2. Pip package manager installed.
 3. A working microphone connected to your computer.
+   
 ##Installation
 1. Clone the repository to your local machine:
 
-` git clone https://github.com/yourusername/speech-to-text-multi-language.git
-cd speech-to-text-multi-language `
+git clone https://github.com/yourusername/speech-to-text-multi-language.git
+
+cd speech-to-text-multi-language 
+
 Install the required Python packages:
 
-bash
-Copy code
+
 pip install -r requirements.txt
 If you encounter issues with PyAudio installation on Windows, you may need to install it using a pre-built binary from this site.
 Verify the installation by running:
 
-bash
-Copy code
+
 python -c "import speech_recognition as sr; import pyaudio"
 If no errors are raised, you're ready to run the project.
 
 ## Usage
 Run the Python script:
 
-bash
-Copy code
+
 python main.py
+
 Choose your preferred language by entering 1 for English, 2 for Hindi, or 3 for Bengali.
 
 Speak into your microphone, and the recognized text will be displayed on the screen.
